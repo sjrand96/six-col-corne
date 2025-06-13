@@ -72,11 +72,11 @@
             display-name = "Base";
             bindings = <
 // ┌────────┬────────┬────────┬────────┬────────┬────────┐   ┌────────┬────────┬────────┬────────┬────────┬────────┐
-    &kp ESC   &kp Q    &kp W    &kp E    &kp R    &kp T       &kp Y    &kp U    &kp I    &kp O    &kp P    &screenshot
+    &kp ESC   &kp Q    &kp W    &kp E    &kp R    &kp T       &kp Y    &kp U    &kp I    &kp O    &kp P    &kp BSPC
 // ├────────┼────────┼────────┼────────┼────────┼────────┤   ├────────┼────────┼────────┼────────┼────────┼────────┤
-    &kp LCMD  HRML(A,      S,       D)   &kp F    &kp G       &kp H    &kp J    HRMR(K,      L,       RET) &kp FSLH
+    &kp LCMD  HRML(A,      S,       D)   &kp F    &kp G       &kp H    &kp J    HRMR(K,      L,     SEMI)  &kp FSLH
 // ├────────┼────────┼────────┼────────┼────────┼────────┤   ├────────┼────────┼────────┼────────┼────────┼────────┤
-    &kp LSHFT &kp Z    &kp X    &ht LG(C) C &ht LG(V) V &kp B    &kp N    &kp M    &kp COMMA &kp DOT  &kp SQT &kp RSHFT
+    &kp LSHFT &kp Z    &kp X    &ht LG(C) C &ht LG(V) V &kp B    &kp N  &kp M &kp COMMA  &kp DOT   &kp SQT &kp RSHFT
 // └────────┴────────┴────────┼────────┼────────┼────────┤   ├────────┼────────┼────────┼────────┴────────┴────────┘
                                &ht LC(LS(LALT)) ESC &mo LOWER &kp SPACE   &kp BSPC &mo RAISE &kp TAB
 //                           └────────┴────────┴────────┘   └────────┴────────┴────────┘
@@ -87,9 +87,9 @@
             display-name = "Lower";
             bindings = <
 // ┌────────┬────────┬────────┬────────┬────────┬────────┐   ┌────────┬────────┬────────┬────────┬────────┬────────┐
-    &trans    &kp P    &kp O    &kp I    &kp U    &kp Y       &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR &kp RPAR &trans
+    &kp TILDE &kp P    &kp O    &kp I    &kp U    &kp Y       &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR &kp RPAR &screenshot
 // ├────────┼────────┼────────┼────────┼────────┼────────┤   ├────────┼────────┼────────┼────────┼────────┼────────┤
-    &trans    &kp SEMI &kp L    &kp K    &kp J    &kp H       &kp LEFT &kp DOWN &kp UP   &kp RIGHT &trans  &trans
+    &trans    &kp SEMI &kp L    &kp K    &kp J    &kp H       &kp LEFT &kp DOWN &kp UP   &kp RIGHT &KP RET  &trans
 // ├────────┼────────┼────────┼────────┼────────┼────────┤   ├────────┼────────┼────────┼────────┼────────┼────────┤
     &trans    &kp SQT  &kp DOT  &kp COMMA &kp M   &kp N       &kp EXCL &trans   &trans   &kp QMARK &kp DQT &trans
 // └────────┴────────┴────────┼────────┼────────┼────────┤   ├────────┼────────┼────────┼────────┴────────┴────────┘
