@@ -72,9 +72,9 @@
             display-name = "Base";
             bindings = <
 // ┌────────┬────────┬────────┬────────┬────────┬────────┐   ┌────────┬────────┬────────┬────────┬────────┬────────┐
-    &kp ESC   &kp Q    &kp W    &kp E    &kp R    &kp T       &kp Y    &kp U    &kp I    &kp O    &kp P    &kp BSPC
+    &kp ESC   &kp Q    &kp W    &kp E    &kp R    &kp T       &kp Y    &kp U    &kp I    &kp O    &kp P    &kp FSLH
 // ├────────┼────────┼────────┼────────┼────────┼────────┤   ├────────┼────────┼────────┼────────┼────────┼────────┤
-    &kp LCMD  HRML(A,      S,       D)   &kp F    &kp G       &kp H    &kp J    HRMR(K,      L,     SEMI)  &kp FSLH
+    &kp LCMD  &kp A    &kp S    &kp D     &kp F    &kp G       &kp H    &kp J    &kp K    &kp L   &kp RET  &kp LCTRL 
 // ├────────┼────────┼────────┼────────┼────────┼────────┤   ├────────┼────────┼────────┼────────┼────────┼────────┤
     &kp LSHFT &kp Z    &kp X    &ht LG(C) C &ht LG(V) V &kp B    &kp N  &kp M &kp COMMA  &kp DOT   &kp SQT &kp RSHFT
 // └────────┴────────┴────────┼────────┼────────┼────────┤   ├────────┼────────┼────────┼────────┴────────┴────────┘
